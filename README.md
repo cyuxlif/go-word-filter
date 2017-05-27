@@ -1,8 +1,10 @@
 # go-word-filter
+
 基于trie树的敏感词过滤服务， 支持grpc调用
 
 
 ##安装
+
 ```
 $ go get github.com/cyuxlif/go-word-filter
 
@@ -16,6 +18,7 @@ $ ./word_filter -c /yourpath/conf/app.yaml
 
 
 ##使用
+
 参考 $GOPATH/src/github.com/cyuxlif/go-word-filter/cmd/grpc_client
 
 如：
@@ -76,6 +79,7 @@ $ ./word_filter -c /yourpath/conf/app.yaml
 ```
 
 ## 字典格式
+
 这里的字典格式指的是data目录下的txt的字典格式
 词典格式为文本格式：
 
