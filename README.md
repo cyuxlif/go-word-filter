@@ -21,7 +21,7 @@ $ ./word_filter -c /yourpath/conf/app.yaml
 
 参考 $GOPATH/src/github.com/cyuxlif/go-word-filter/cmd/grpc_client
 
-如：
+部分代码如：
 ```
 	// 连接
 	conn, err := grpc.Dial(Addr, grpc.WithInsecure())
