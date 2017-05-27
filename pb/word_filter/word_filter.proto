@@ -1,0 +1,34 @@
+syntax = "proto3";
+package word_filter;
+
+message KeyWord {
+    string word = 1;
+    int32 attr = 2;
+    string replace = 3;
+}
+
+message FindKeyWordsRes {
+    repeated KeyWord KeyWords = 1;
+}
+
+message Text {
+    string text = 1;
+}
+
+message Empty {
+}
+
+service WordFilter {
+    //根据文本查找关键词
+    rpc FindKeyWords (Text) returns (FindKeyWordsRes) {
+    }
+
+    //获取用户词典内容
+    rpc GetUserDict (Empty) returns (Text) {
+    }
+
+    //修改用户词典内容
+    rpc EditUserDict (Text) returns (Empty) {
+    }
+}
+

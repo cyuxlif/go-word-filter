@@ -1,0 +1,3 @@
+DefaultDictDataPath: /yourpath/data/dict.txt
+UserDictDataPath: /yourpath/data/user_dict.txt
+TCPAddr: 0.0.0.0:7890
