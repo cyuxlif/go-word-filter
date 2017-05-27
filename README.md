@@ -3,7 +3,7 @@
 基于trie树的敏感词过滤服务， 支持grpc调用
 
 
-##安装
+## 安装
 
 ```
 $ go get github.com/cyuxlif/go-word-filter
@@ -17,7 +17,7 @@ $ ./word_filter -c /yourpath/conf/app.yaml
 ```
 
 
-##使用
+## 使用
 
 参考 $GOPATH/src/github.com/cyuxlif/go-word-filter/cmd/grpc_client
 
